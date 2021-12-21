@@ -1,4 +1,4 @@
-# 那些容易弄混的正则
+# 那些容易记混的正则
 
 > 匹配 a 字符(包含 a 字符就可以)
 ```
@@ -64,7 +64,7 @@
 /[ab]/.test('b') // true
 ```
 
-> 匹配字符串abc或xyz([abc|xyz])
+> 匹配字符串 abc 或 xyz ([abc|xyz])
 ```
 /abc|xyz/.test('abc') // true
 /abc|xyz/.test('xyz') // true
